@@ -50,11 +50,15 @@ body {
   background: $featureBackgroundColour;
   background-size: cover;
   background-position: center;
+  color:#ffffff;
   .container {
     min-height: 35vh;
     max-width: 60%;
     @include flex-direction(column);
     @include justify-content(center);
+  }
+  h2{
+    color:#ffffff;
   }
 }
 

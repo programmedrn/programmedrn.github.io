@@ -1,13 +1,13 @@
 ---
-title: About Alembic
+title: First Blog
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+  ## Welcome!
+  This is a blog for sharing what I'm learning and thinking
+feature_image: "https://media.istockphoto.com/id/603164912/photo/suburb-asphalt-road-and-sun-flowers.jpg?s=612x612&w=0&k=20&c=qLoQ5QONJduHrQ0kJF3fvoofmGAFcrq6cL84HbzdLQM="
+excerpt: "This is the first page of my First Blog."
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
+I made this blog to share what's in my mind these days. They all come and go. So I needed to capture them in somewhere so I can re-think someday.
 
 {% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}
 
