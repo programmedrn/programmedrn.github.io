@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "jekyll-remote-theme"
 gem "faraday-retry"
+gem "jekyll-remote-theme"
 gemspec
