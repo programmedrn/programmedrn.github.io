@@ -3,7 +3,7 @@ title: First Blog
 feature_text: |
   ## Welcome!
   This is a blog for sharing what I'm learning and thinking
-feature_image: "https://media.istockphoto.com/id/603164912/photo/suburb-asphalt-road-and-sun-flowers.jpg?s=612x612&w=0&k=20&c=qLoQ5QONJduHrQ0kJF3fvoofmGAFcrq6cL84HbzdLQM="
+feature_image: "https://images2.alphacoders.com/132/1327253.jpeg"
 excerpt: "This is the first page of my First Blog."
 ---
 
