@@ -66,7 +66,7 @@ collections:
     description: "here you are" # The post list page content
     feature_text: |
       In my opinion...
-    feature_image: "/assets/books.jpg"
+    feature_image: "/FirstBlog/assets/books.jpg"
 
 # 6. Jekyll collections settings
 defaults:
