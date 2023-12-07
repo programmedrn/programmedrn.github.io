@@ -40,12 +40,12 @@ paginate: 5 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 # jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 # twitter:
-  # username: programmedrn # jekyll-seo-tag > Owners twitter username
-author: programmedrn # jekyll-seo-tag > default author
+  # username: FirstBlog # jekyll-seo-tag > Owners twitter username
+author: FirstBlog # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: programmedrn # jekyll-seo-tag > real name
+  name: FirstBlog # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://github.com/programmedrn
+    - https://github.com/programmedrn/
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 commonmark:
   options: ["SMART", "FOOTNOTES"]
@@ -66,7 +66,6 @@ collections:
     description: "here you are" # The post list page content
     feature_text: |
       In my opinion...
-    # TODO: differs per stages
     feature_image: "/assets/books.jpg"
 
 # 6. Jekyll collections settings
@@ -75,7 +74,6 @@ defaults:
     scope:
       path: ""
     values:
-    # TODO: differs per stages
       image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
@@ -91,21 +89,14 @@ defaults:
       layout: page # Set the default layout for pages
 
 # 7. Site settings
-# Variables for each stage
-# TODO: differs per stages
-ASSETS: assets
-STYLE: /assets/styles.css
-SEARCH_JSON: /assets/search.json
-SEARCH_FETCH_JS: /assets/scripts/fetch.js
-
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "FirstBlog" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "What I'm thinking these days...." # Site description and default description, also used in jekyll-seo-tag
 url: "https://programmedrn.github.io" # Site url, also used in jekyll-seo-tag
-baseurl: ""
-repo: "https://github.com/programmedrn/FirstBlog"
+baseurl: "/FirstBlog"
+repo: "https://github.com/programmedrn/"
 email: "gudrn1994@naver.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting

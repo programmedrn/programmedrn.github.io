@@ -89,13 +89,6 @@ defaults:
       layout: page # Set the default layout for pages
 
 # 7. Site settings
-# Variables for each stage
-ASSETS: assets
-STYLE: /assets/styles.css
-SEARCH_JSON: /assets/search.json
-SEARCH_FETCH_JS: /assets/scripts/fetch.js
-SW_JS: /sw.js
-
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "FirstBlog" # Site name or title, also used in jekyll-seo-tag
