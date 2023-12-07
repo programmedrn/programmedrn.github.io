@@ -67,7 +67,7 @@ collections:
     feature_text: |
       In my opinion...
     # TODO: differs per stages
-    feature_image: "/programmedrn/assets/books.jpg"
+    feature_image: "/assets/books.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -76,7 +76,7 @@ defaults:
       path: ""
     values:
     # TODO: differs per stages
-      image: "/programmedrn/assets/default-social-image.png" # Default image for sharing
+      image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
       path: ""
@@ -94,14 +94,14 @@ defaults:
 # Variables for each stage
 # TODO: differs per stages
 ASSETS: assets
-STYLE: /programmedrn/assets/styles.css
-SEARCH_JSON: /programmedrn/assets/search.json
-SEARCH_FETCH_JS: /programmedrn/assets/scripts/fetch.js
+STYLE: /assets/styles.css
+SEARCH_JSON: /assets/search.json
+SEARCH_FETCH_JS: /assets/scripts/fetch.js
 
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "FirstBlog" # Site name or title, also used in jekyll-seo-tag
-logo: "/programmedrn/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "What I'm thinking these days...." # Site description and default description, also used in jekyll-seo-tag
 url: "https://programmedrn.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -118,14 +118,14 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 # TODO: differs per stages
-  16: '/programmedrn/assets/logos/logo@16px.png'
-  32: '/programmedrn/assets/logos/logo@32px.png'
-  96: '/programmedrn/assets/logos/logo@96px.png'
-  120: '/programmedrn/assets/logos/logo@120px.png'
-  144: '/programmedrn/assets/logos/logo@144px.png'
-  180: '/programmedrn/assets/logos/logo@180px.png'
-  512: '/programmedrn/assets/logos/logo@512px.png'
-  1024: '/programmedrn/assets/logos/logo@1024px.png'
+  16: '/assets/logos/logo@16px.png'
+  32: '/assets/logos/logo@32px.png'
+  96: '/assets/logos/logo@96px.png'
+  120: '/assets/logos/logo@120px.png'
+  144: '/assets/logos/logo@144px.png'
+  180: '/assets/logos/logo@180px.png'
+  512: '/assets/logos/logo@512px.png'
+  1024: '/assets/logos/logo@1024px.png'
 
 # 9. Site navigation
 navigation_header:

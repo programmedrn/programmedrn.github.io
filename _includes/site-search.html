@@ -8,10 +8,9 @@
     </ul>
   </form>
 </div>
-
-<script type="text/javascript" src="{{ "/assets/scripts/fetch.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ site.SEARCH_FETCH_JS | relative_url }}"></script>
 <script type="text/javascript">
-  const endpoint = '{{ "/assets/search.json" | relative_url }}';
+  const endpoint = '{{ site.SEARCH_JSON | relative_url }}';
 
   const pages = [];
 
