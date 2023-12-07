@@ -102,7 +102,7 @@ title: "FirstBlog" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "What I'm thinking these days...." # Site description and default description, also used in jekyll-seo-tag
 url: "https://programmedrn.github.io" # Site url, also used in jekyll-seo-tag
-baseurl: "abc"
+baseurl: "FirstBlog"
 repo: "https://github.com/programmedrn/"
 email: "gudrn1994@naver.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
