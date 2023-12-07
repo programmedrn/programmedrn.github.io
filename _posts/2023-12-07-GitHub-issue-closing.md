@@ -55,6 +55,14 @@ git commit -m "resolved some issues. #4, #5"
 
 As you can see, you may close several issues at the same time.
 
+### Advanced
+
+You also can link an issue from other repository by
+
+```bash
+git commit -m "resolved owner/repositoryName#52"
+```
+
 ### References
 
-[Git commit으로 Issue 종료하기(Closing issue with commit)](https://www.hahwul.com/2018/07/27/closing-git-issue-with-commit/ "Git commit으로 Issue 종료하기(Closing issue with commit)")
+[Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue/ "Linking a pull request to an issue")
