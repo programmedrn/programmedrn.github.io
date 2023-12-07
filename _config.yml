@@ -93,18 +93,19 @@ defaults:
 # 7. Site settings
 # Variables for each stage
 # TODO: differs per stages
-ASSETS: FirstBlog/assets
+ASSETS: assets
 STYLE: /FirstBlog/assets/styles.css
 SEARCH_JSON: /FirstBlog/assets/search.json
 SEARCH_FETCH_JS: /FirstBlog/assets/scripts/fetch.js
+SW_JS: /FirstBlog/sw.js
 
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "FirstBlog" # Site name or title, also used in jekyll-seo-tag
 logo: "/FirstBlog/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "What I'm thinking these days...." # Site description and default description, also used in jekyll-seo-tag
-url: "https://FirstBlog.github.io" # Site url, also used in jekyll-seo-tag
-baseurl: ""
+url: "https://programmedrn.github.io" # Site url, also used in jekyll-seo-tag
+baseurl: "FirstBlog"
 repo: "https://github.com/FirstBlog/FirstBlog"
 email: "gudrn1994@naver.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
