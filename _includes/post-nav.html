@@ -1,31 +1,33 @@
 <!-- Only shows h2 and h3 tags from content in order -->
-<h5 class="index">Index</h5>
-<ul style="list-style: none;">
-  {% assign h2_open_starts = content | split: '<h2' %}
-  {% assign h2len = h2_open_starts.size | minus: 1 %}
-  {% for i in (1..h2len) %}
-    {% assign h2_open_end = h2_open_starts[i] | split: '>' %}
-    {% assign h2_id_start = h2_open_end[0] | split: 'id="' %}
-    {% assign h2_id = h2_id_start[1] | split: '"' %}
-    {% assign h2_content_array = h2_open_end[1] | split: '</h2' %}
-    {% assign h2_title = h2_content_array[0] %}
-    <li class="h2index">
-      <a href="#{{ h2_id }}">{{ h2_title }}</a>
-    </li>
-
-    {% assign h3_open_starts = h2_open_starts[i] | split: '<h3' %}
-    {% assign h3len = h3_open_starts.size | minus: 1 %}
-    {% for i in (1..h3len) %}
-      {% assign h3_open_end = h3_open_starts[i] | split: '>' %}
-      {% assign h3_id_start = h3_open_end[0] | split: 'id="' %}
-      {% assign h3_id = h3_id_start[1] | split: '"' %}
-      {% assign h3_content_array = h3_open_end[1] | split: '</h3' %}
-      {% assign h3_title = h3_content_array[0] %}
-      <li class="h3index">
-        <a href="#{{ h3_id }}">{{h3_title}}</a>
+<nav>
+  <h5 class="index">Index</h5>
+  <ul style="list-style: none;">
+    {% assign h2_open_starts = content | split: '<h2' %}
+    {% assign h2len = h2_open_starts.size | minus: 1 %}
+    {% for i in (1..h2len) %}
+      {% assign h2_open_end = h2_open_starts[i] | split: '>' %}
+      {% assign h2_id_start = h2_open_end[0] | split: 'id="' %}
+      {% assign h2_id = h2_id_start[1] | split: '"' %}
+      {% assign h2_content_array = h2_open_end[1] | split: '</h2' %}
+      {% assign h2_title = h2_content_array[0] %}
+      <li class="h2index">
+        <a href="#{{ h2_id }}">{{ h2_title }}</a>
       </li>
-    {% endfor %}
-    
-  {% endfor %}
 
-</ul>
+      {% assign h3_open_starts = h2_open_starts[i] | split: '<h3' %}
+      {% assign h3len = h3_open_starts.size | minus: 1 %}
+      {% for i in (1..h3len) %}
+        {% assign h3_open_end = h3_open_starts[i] | split: '>' %}
+        {% assign h3_id_start = h3_open_end[0] | split: 'id="' %}
+        {% assign h3_id = h3_id_start[1] | split: '"' %}
+        {% assign h3_content_array = h3_open_end[1] | split: '</h3' %}
+        {% assign h3_title = h3_content_array[0] %}
+        <li class="h3index">
+          <a href="#{{ h3_id }}">{{h3_title}}</a>
+        </li>
+      {% endfor %}
+      
+    {% endfor %}
+
+  </ul>
+</nav>
