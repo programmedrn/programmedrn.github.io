@@ -13,6 +13,7 @@ feature_image: "/FirstBlog/assets/insertedImg/2023-12-07-GitHub-issue-closing/gi
 # image: "/FirstBlog/assets/insertedImg/2023-12-07-GitHub-issue-closing/githubImage.png"
 # aside: true
 # indexing: true
+heads: true
 ---
 
 ## Goal of this article
@@ -20,16 +21,22 @@ Github issuses can be closed by commit. It can be achived by two things in your 
 1. #{an issuse number}
 1. a closing keyword
 
-### Issue Number
-You can check your issue's number from issues page of your repository.
+## Test1
 
-check below.
+### sub 1
+### sub 2
+
+## test3
+### sub 4
+
+### sub 5
+
+### Issue Number
+You can check your issue's number from issues page of your repository. Check below.
 
 {% include figure.html image="/FirstBlog/assets/insertedImg/2023-12-07-GitHub-issue-closing/issue_examples.png" width="200em"  %}
 
-For each issues, there are numbers below the name of one.
-
-For example, I have 6 issues and the first issue's number from the image is 6. 
+For each issues, there are numbers below the name of one. For example, I have 6 issues and the first issue's number from the image is 6. 
 
 ### Closing Keywords
 

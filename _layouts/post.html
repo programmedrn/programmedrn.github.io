@@ -11,7 +11,6 @@ layout: default
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
     {{ content }}
-
     {% include nav-share.html %}
 
     {% include post-comments.html %}
@@ -19,6 +18,8 @@ layout: default
   </article>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+  {% if page.heads == true %}{% include site-leftside.html %}{% endif %}
 
 </main>
 

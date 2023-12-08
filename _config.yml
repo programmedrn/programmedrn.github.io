@@ -81,6 +81,7 @@ defaults:
       type: "posts"
     values:
       layout: post # Set the default layout for posts
+      heads: true
   -
     scope:
       path: ""
