@@ -11,6 +11,8 @@ feature_text: |
   Github Issues can be closed from committing, when there are issue number and keyword for closing.
 feature_image: "/FirstBlog/assets/insertedImg/2023-12-07-GitHub-issue-closing/githubImage.png"
 # image: "/FirstBlog/assets/insertedImg/2023-12-07-GitHub-issue-closing/githubImage.png"
+# aside: true
+# indexing: true
 ---
 
 ## Goal of this article
