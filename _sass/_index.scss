@@ -8,7 +8,8 @@
 
     a, a:visited {
         color: rgba(63, 104, 218, 0.867);
-        text-decoration: #fff wavy underline;
+        text-decoration: none;
+        background-image: none !important;
     }
     
     a:hover{

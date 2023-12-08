@@ -12,8 +12,7 @@ feature_text: |
 feature_image: "/FirstBlog/assets/insertedImg/2023-12-07-GitHub-issue-closing/githubImage.png"
 # image: "/FirstBlog/assets/insertedImg/2023-12-07-GitHub-issue-closing/githubImage.png"
 # aside: true
-# indexing: true
-heads: true
+# heads: true
 ---
 
 ## Goal of this article
