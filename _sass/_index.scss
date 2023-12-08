@@ -1,0 +1,26 @@
+// for post-nav.html
+// and other custom
+.index {
+    // color: #000000 !important;
+}
+
+.h2index, .h3index {
+
+    a, a:visited {
+        color: rgba(63, 104, 218, 0.867);
+        text-decoration: #fff wavy underline;
+    }
+    
+    a:hover{
+        color: rgba(63, 104, 218, 0.867);
+        text-decoration: rgba(63, 104, 218, 0.867) solid underline;
+    }
+}
+
+.h2index {
+    text-indent: .3em;
+}
+
+.h3index {
+    text-indent: 1em;
+}
