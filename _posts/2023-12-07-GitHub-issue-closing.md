@@ -73,4 +73,4 @@ git commit -m "resolved owner/repositoryName#52"
 
 ### References
 
-[Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue/ "Linking a pull request to an issue")
+[Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue/ "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue/")
