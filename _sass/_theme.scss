@@ -494,3 +494,25 @@ pre code {
     overflow-x: scroll;
   }
 }
+
+.thumbnail-wrapper {
+  position: relative;
+  float:left;
+  width:20%;
+  aspect-ratio : 1 / 1
+}
+
+.thumbnail {
+  position: absolute;
+  overflow: hidden;
+  border: solid 1px black;
+  height:100%;
+  object-fit:cover
+}
+
+.ellipsis {
+  padding-left: 1em;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}

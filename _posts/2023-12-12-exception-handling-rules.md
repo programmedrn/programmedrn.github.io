@@ -1,5 +1,5 @@
 ---
-title: Eception Handling Rules
+title: Exception Handling Rules
 categories: 
     - exception
     - rule
@@ -7,7 +7,7 @@ categories:
 excerpt: |
     When and how to handle exceptions
 feature_text: |
-    ## Eception Handling Rules
+    ## Exception Handling Rules
      When and how to handle exceptions
 feature_image: "/FirstBlog/assets/insertedImg/2023-12-12-java-interface-vs-abstractClass/basic_codes.png"
 # aside: true
@@ -30,7 +30,7 @@ To get an advice for exception handling.
     
 3. Document the Exception You Specify
     
-    Add @throws in you javadoc.
+    Add `@throws` in you javadoc.
     
 4. Throw Exceptions With Descriptive Messages
     

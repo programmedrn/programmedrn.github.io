@@ -2,14 +2,23 @@
   <section class="section  typeset">
     <ul class="list  list--posts">
       {% for page in paginator.posts %}
+        {% assign feature_image = page.feature_image %}
+        {% if page.collectionpage %}
+          {% assign feature_image = collectiondata.feature_image %}
+        {% endif %}
         <li class="item  item--post">
-          <article class="article  article--post">
-
-            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
-            {% include post-meta.html %}
-            {{ page.excerpt | markdownify | truncatewords: 60 }}
-
-          </article>
+          <div>
+            <article class="article article--post">
+              <div class="thumbnail-wrapper" style="">
+                <img class="thumbnail" {% if feature_image %} src="{{feature_image}}" {% endif %}>
+              </div>
+              <div class="ellipsis">
+                <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+                {% include post-meta.html %}
+                {{ page.excerpt | markdownify | truncatewords: 60 }}
+              </div>
+            </article>
+          </div>
         </li>
       {% endfor %}
     </ul>
