@@ -71,4 +71,4 @@ WHERE
 
 
 ## References
-- [linkName](URL "tooltip")
+- [Postgresql 계정/유저 관리](https://kwomy.tistory.com/9 "https://kwomy.tistory.com/9")
